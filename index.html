@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>Google 2.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="googleTest.css">
 </head>
+
 <body>
     <!--Main div that contains all webpage elements-->
     <div class="main">
         <!--Header as navbar at the top of page with links-->
         <header>
-        <nav id="navbar">
-            <ul class="navlinks">
-                <li><a href="https://www.google.com/intl/ALL/gmail/about/" class="navelements">GMail</a></li>
-                <li><a href="https://www.google.com/imghp?hl=en" class="navelements">Images</a></li>
-                <li><a href=""><img src="navimg.png"  id="navimg" class="navelements"></a></li>
-                <li><button id="sign-in-btn" class="navelements">Sign in</button></li>
-                
-            </ul>
-        </nav>
-    </header>
-        
-    <div class="searchImage">
-        <img src="googlelogo.png" alt="Google">
+            <nav id="navbar">
+                <ul class="navlinks">
+                    <a href=""><button id="sign-in-btn" class="navelements">Sign in</button></a>
+                    <a href=""><img src="navimg.png" id="navimg" class="navelements"></a>
+                    <a href="https://www.google.com/imghp?hl=en" class="navelements">Images</a>
+
+                </ul>
+            </nav>
+        </header>
+
+        <div class="searchImage">
+            <img src="googlelogo.png" alt="Google">
+        </div>
+
+
+        <form>
+            <!--class for elments for the searchbar-->
+            <div class="searchbar">
+                <input id="textbar" type="text" name="search">
+            </div>
+
+            <!--class for buttons-->
+            <div class="buttons">
+                <input id="searchbutton" type="submit" value="Google Search">
+                <input id="luckybutton" type="submit" value="I'm Feeling Lucky">
+
+            </div>
+        </form>
+        <!--footer for with elements for footer-->
+
     </div>
-
-
-    <form>
-        <!--class for elments for the searchbar-->
-    <div class="searchbar">
-        <input id="textbar" type="text" name="search">
-        <input type="image" id="googlekeyboard" src="tia.png" alt="keyboard">
-    </div>
-
-     <!--class for buttons-->
-    <div class="buttons">
-        <input id="searchbutton" type="submit" value="Google Search">
-        <input id="luckybutton" type="submit" value="I¨m Feeling Lucky">
-
-    </div>
-</form>
- <!--footer for with elements for footer-->
     <footer class="footer">
         <ul class="footerLinks">
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-
-            <div class="bottomRight">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
-            </div>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
         </ul>
-    </footer>
-</div>
-    
-</body>
-</html>
 
+        <ul class="bottomRight">
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+
+.main {
+    margin: 0px;
+    width: 100%;
+    font-family: Arial, Helvetica, serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 6px;    
+}
+
+a :hover{
+    text-decoration-color: black;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+#resultGoogleImg, #navimg{
+    margin-top: 8px;
+}
+
+#navbar{
+    height: 30px;
+    margin-bottom: 50px;
+    color:  #5f6368;
+}
+
+#sign-in-btn{
+    background-color: #4387fd;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    width: 660px;
+    border-radius: 30px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    
+}
+
+#textbar{
+    width: 100%;
+    padding-left: 25px;
+    border-radius: 30px;
+    border:  #dfe1e5;
+    height: 42px;
+    width: 760px;
+    font-size: 18px;
+}
+
+#barImg{
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+#searchImg{
+    margin-top: 5px;
+}
+
+.resultNavlinks{
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+}
+
+.footer{
+        margin-top: 15px;
+        background-color: #f2f2f2;
+        padding-top: 25px;     
+        padding-bottom: 35px;
+        border-top: 1px solid #e4e4e4;
+        color: #5f6368;
+        font-size: 14px;
+    
+        position: relative;    
+    }
+
+.footerLinks{
+    line-height: 1px;
+    position: relative;
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+
+.bottomRight{
+    line-height: 1px;
+    display: flex;
+     float: right;
+   list-style-type: none;
+    
+}
+
+.resultsnNavbarList{
+    list-style-type: none;
+    display: flex;
+    color: #777;
+    border-bottom: 2.5px solid #dfe1e5;
+    padding-left: 170px;
+
+}
+
+.resultsnNavbarLinks{
+    margin-right: 20px;
+}
+
+#settingsNavbarlink{
+    padding-left: 120px;
+    margin-right: 20px;
+    }
+
+#currentNavbarLink{
+    margin-left: 10px;
+    margin-right: 20px;
+    color: #4387fd;
+    border-bottom: 3px solid #1A73E8;
+}
+
+
+#numOfresults{
+padding-left: 140px;
+margin: 15px 15px;
+color: #777;
+
+}
+
+#resultslist{
+    list-style-type: none;
+    padding-left: 170px;
+    padding-right: 500px;
+}
+
+.searchLinks{
+    margin-bottom: 18px;
+
+}
+
+.websitelink{
+    color: #1a0dab;
+    line-height: 25px;
+    font-family: arial, serif;
+    font-size: 18px;
+}
+
+.spanUrl{
+    color: forestgreen;
+}
+
+.spanInfo{
+    color: #545454;
+    line-height: 20px;
+}
+
+#moreResultsLogo{
+        padding-left: 250px;
+}
+

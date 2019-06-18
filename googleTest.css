@@ -1,0 +1,118 @@
+
+.main {
+    margin: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+    margin-right: 6px; 
+}
+
+a:hover{
+  text-decoration: underline;
+      
+}
+
+#navbar{
+    height: 30px;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    font-size: 14px;
+    color:  #5f6368;
+ 
+}
+
+.navelements{
+color: black;
+padding: 8px;
+float: right;
+}
+
+#sign-in-btn{
+    background-color: #4387fd;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px 8px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.searchImage{
+    width: 270px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.searchbar{
+    margin: auto;
+    width: 620px;
+    line-height: 40px;
+}
+
+#textbar{
+    width: 560px;
+    padding-left: 25px;
+    border-radius: 30px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    font-size: 20px;
+    background: url(tia.png) no-repeat scroll 530px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+#searchbutton, #luckybutton{
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 35px;
+    width: 140px;
+    color: black;
+    font-weight: 300;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.footer{
+    margin-top: 180px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #e4e4e4;
+    color: #5f6368;
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.footerLinks{
+    line-height: 1px;
+    position: relative;
+    list-style-type: none;
+    float: left;
+    display: flex;
+}
+
+.bottomRight{
+    line-height: 1px;
+    display: flex;
+     float: right;
+   list-style-type: none;
+    
+}
+

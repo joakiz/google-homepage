@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <title>Google 2.0 Search results</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="googleTest.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="resultStyle.css">
 </head>
 
 <body>
-     <!--Header as navbar at the top of page with links-->
+    <!--Header as navbar at the top of page with links-->
     <header>
         <nav id="navbar">
             <ul class="resultNavlinks">
@@ -19,43 +19,42 @@
                     </a>
                 </li>
 
-                <!--class for searchbar-->
-                <li>
-                    <div class="searchbar">
-                        <input id="textbar" type="text" name="search">
-                        <input type="image" id="googlekeyboard" src="tia.png" alt="keyboard">
-                        <input type="image" id="searchIcon" src="search-icon.png" alt="search-icon">
-                    </div>
+                <!-- list with class for searchbar-->
+                <li class="searchbar">
+                    <input type="text" id="textbar" name="search">
+                    <a href=""><img src="tia.png" width="20" height="20" id="barImg"></a>
+                    <a href=""><img src="search-icon.png" width="30" height="30" id="searchImg"></a>
                 </li>
-            </ul>
-
-            <ul id="resultsLeft">
-                <li><a href=""><img src="navimg.png" id="navimg" class="navelements"></a></li>
+    
+                <div class="resultNavlinks">
+                <li><a href=""><img src="navimg.png" id="navimg"></a></li>
                 <li><button id="sign-in-btn" class="navelements">Sign in</button></li>
+            </div>
             </ul>
         </nav>
+    </header>
 
+    <main>
         <!--class for selection of results-->
         <ul class="resultsnNavbarList">
             <li id="currentNavbarLink">All</li>
-            <li class="resultsnNavbarLinks">News</li>
-            <li class="resultsnNavbarLinks">Images</li>
-            <li class="resultsnNavbarLinks">Videos</li>
-            <li class="resultsnNavbarLinks">Maps</li>
-            <li class="resultsnNavbarLinks">More</li>
-            <li id="settingsNavbarlink">Settings</li>
-            <li class="resultsnNavbarLinks">Tools</li>
+            <li class="resultsnNavbarLinks"><a href="">News</a></li>
+            <li class="resultsnNavbarLinks"><a href="">Images</a></li>
+            <li class="resultsnNavbarLinks"><a href="">Videos</a></li>
+            <li class="resultsnNavbarLinks"><a href="">Maps</a></li>
+            <li class="resultsnNavbarLinks"><a href="">More</a></li>
+            <li id="settingsNavbarlink"><a href="">Settings</a></li>
+            <li class="resultsnNavbarLinks"><a href="">Tools</a></li>
         </ul>
 
-    </header>
-
-    <div id="numOfresults">
-        About 1 410 000 000 results (0,33 seconds)
-    </div>
 
 
-<!--class for main searchresults-->
-    <div class="mainresults">
+        <div id="numOfresults">
+            About 1 410 000 000 results (0,33 seconds)
+        </div>
+
+
+        <!--List with main searchresults-->
         <ul id="resultslist">
             <li class="searchLinks"><a href="" class="websitelink">With zero coding experience, artist building 180
                     webpages in 180 days</a><br>
@@ -129,49 +128,23 @@
 
         </ul>
 
-        <!--links to related sarches-->
-        <div>
-            <span id="relatedsearch">
-                Searches related to build this webpage
-            </span>
-            <table id="resultsTable">
-                <tr>
-                    <td class="leftTableRow">build wordpress website</td>
-                    <td class="rightTableRow">host your own wordpress website</td>
-                </tr>
-                <tr>
-                    <td class="leftTableRow">easy website</td>
-                    <td class="rightTableRow">start wordpress site</td>
-                </tr>
-                <tr>
-                    <td class="leftTableRow">website builder 2017</td>
-                    <td class="rightTableRow">how to work with wordpress</td>
-                </tr>
-                <tr>
-                    <td class="leftTableRow">best website builder</td>
-                    <td class="rightTableRow">wordpress Tutorial for Beginners</td>
-                </tr>
-            </table>
-
-        </div>
-
         <div id="moreResultsLogo">
             <img src="moreresults.png" alt="more search results">
         </div>
 
-    </div>
 
+    </main>
     <!--footer for with elements for footer-->
-    <footer class="resultsFooter">
+    <footer class="footer">
         <ul class="footerLinks">
-            <a href="">Advertising</a>
-            <a href="">Business</a>
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+        </ul>
 
-            <div class="bottomRight">
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Settings</a>
-            </div>
+        <ul class="bottomRight">
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Settings</a></li>
         </ul>
 
     </footer>
